@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="46" tests="1" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="1" errors="0" time="46" timestamp="2018-02-11 18:46:08" hostname="mario - DESKTOP-LSE61ES" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mario\\git\\KatalonGit\\Reports\\New Test Suite\\20180211_184602"/>
+         <property name="logFiles" value="C:\\Users\\mario\\git\\KatalonGit\\Reports\\New Test Suite\\20180211_184602\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mario\\git\\KatalonGit\\Reports\\New Test Suite\\20180211_184602\\1518371213306.png"/>
+         <property name="hostName" value="mario - DESKTOP-LSE61ES"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.140"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="eafcef63f1b86248aa35efbfb78a2883"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2018-02-11 18:46:08 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2018-02-11 18:46:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-11 18:46:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-11 18:46:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-02-11 18:46:13 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-02-11 18:46:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+2018-02-11 18:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+2018-02-11 18:46:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Home' is clicked on
+
+2018-02-11 18:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Home' is clicked on
+
+2018-02-11 18:46:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+2018-02-11 18:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+2018-02-11 18:46:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-02-11 18:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-02-11 18:46:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-02-11 18:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-02-11 18:46:15 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+2018-02-11 18:46:15 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+2018-02-11 18:46:15 - [TEST_STEP][PASSED] - setText: Text 'ThisisNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+2018-02-11 18:46:15 - [MESSAGE][PASSED] - Text 'ThisisNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+2018-02-11 18:46:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-02-11 18:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-02-11 18:46:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+2018-02-11 18:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+2018-02-11 18:46:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2018-02-11 18:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2018-02-11 18:46:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-11 18:46:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case 2" classname="Test Cases/New Test Case 2" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' located by 'By.xpath: //html[(text() = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]' or . = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]')]' not found)"/>
+         <system-out><![CDATA[2018-02-11 18:46:17 - [TEST_CASE][FAILED] - Test Cases/New Test Case 2: Test Cases/New Test Case 2 FAILED because (of) Unable to click on object 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' located by 'By.xpath: //html[(text() = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]' or . = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]')]' not found)
+
+2018-02-11 18:46:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-11 18:46:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-11 18:46:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-02-11 18:46:21 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-02-11 18:46:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' located by 'By.xpath: //html[(text() = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]' or . = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]')]' not found)
+
+2018-02-11 18:46:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' located by 'By.xpath: //html[(text() = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]' or . = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]')]' not found)
+[[ATTACHMENT|C:\\Users\\mario\\git\\KatalonGit\\Reports\\New Test Suite\\20180211_184602\\1518371213306.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-11 18:46:17 - [TEST_CASE][FAILED] - Test Cases/New Test Case 2: Test Cases/New Test Case 2 FAILED because (of) Unable to click on object 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' located by 'By.xpath: //html[(text() = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]' or . = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-11 18:46:08 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case 2 FAILED because (of) Unable to click on object 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' located by 'By.xpath: //html[(text() = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]' or . = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-11 18:46:08 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case 2 FAILED because (of) Unable to click on object 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/html_CURA Healthcare Service' located by 'By.xpath: //html[(text() = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]' or . = '
+    
+    
+    
+    
+
+    CURA Healthcare Service
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} div#katalon-elementInfoDiv {color: lightblue; padding: 5px}
+
+
+
+
+
+    
+        
+        
+            CURA Healthcare
+        
+        
+            Home
+        
+                
+            Login
+        
+            
+
+
+
+
+    
+        CURA Healthcare Service
+        We Care About Your Health
+        
+        Make Appointment
+    
+
+
+
+
+
+    
+        
+            
+                CURA Healthcare Service
+                
+                Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+                
+                     (678) 813-1KMS
+                     info@katalon.com
+                    
+                
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+                
+                Copyright © CURA Healthcare Service 2018
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+/html[1]')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
